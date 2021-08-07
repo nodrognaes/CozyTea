@@ -1,0 +1,30 @@
+html {
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica;
+    font-size: 22px;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+}
+
+.logo img {
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 9px;
+}
+
+.nav {
+    display
+    float: right;
+}
+
+.nav-items {
+    list-style-type: none;
+    text-decoration: underline;
+}
