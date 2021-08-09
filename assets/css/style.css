@@ -1,16 +1,21 @@
-html {
+body {
     background-color: black;
     color: seashell;
     font-family: Helvetica;
     font-size: 22px;
     opacity: 0.9;
     text-align: center;
+    margin-top: 69px;
 }
 
 header {
     height: 69px;
     border-bottom: 1px solid seashell;
     display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: black;
 }
 
 .logo img {
@@ -29,7 +34,45 @@ header {
     text-decoration: underline;
 }
 
+#mission {
+    height: 700px;
+    width: 1200px;
+}
+
+#month {
+    width: 1000px;
+}
+
 #month img {
     height: 200px;
     width: 300px;
+}
+
+#locations {
+    height: 500px;
+    width: 1200px;
+    background-image: url("../images/img-locations-background.jpg");
+}
+
+.card-container {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    opacity: 1;
+    background-color: black;
+    margin: 0px 20px;
+}
+
+#contact {
+    height: 200px;
+}
+
+footer {
+    text-align: left;
+    margin-left: 20px;
 }
