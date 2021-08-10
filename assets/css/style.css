@@ -1,3 +1,4 @@
+
 body {
     background-color: black;
     color: seashell;
@@ -13,9 +14,15 @@ header {
     border-bottom: 1px solid seashell;
     display: flex;
     position: fixed;
+    z-index: 10;
     width: 100%;
     top: 0;
+    left: 0;
     background-color: black;
+}
+
+.logo {
+    margin-right: auto;
 }
 
 .logo img {
@@ -24,55 +31,93 @@ header {
     margin-top: 9px;
 }
 
-.nav {
-    display
-    float: right;
+nav {
+   float: right;
+   display: flex;
+   justify-content: space-evenly;
+   margin-right: 10px;
 }
 
-.nav-items {
+nav li {
+    display: inline-block;
     list-style-type: none;
     text-decoration: underline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: seashell;
 }
 
 #mission {
     height: 700px;
     width: 1200px;
+    background-image: url("../images/img-mission-background.webp");
+    margin: auto;
+}
+
+.mission-text {
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    width: 100%;
 }
 
 #month {
     width: 1000px;
+    margin: auto;
 }
 
-#month img {
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.prod {
+    margin: 0 15px;
+}
+
+.products img {
     height: 200px;
     width: 300px;
+    margin-bottom: -10px;
 }
 
 #locations {
     height: 500px;
     width: 1200px;
     background-image: url("../images/img-locations-background.jpg");
+    margin: 30px auto 0;
+}
+
+.loctext {
+    padding: 40px;
 }
 
 .card-container {
-    margin-top: 15px;
+    margin-top: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .card {
-    width: 300px;
+    width: 275px;
     opacity: 1;
     background-color: black;
     margin: 0px 20px;
+    border-radius: 8px;
+    height: 275px;
 }
 
 #contact {
+    padding: 40px;
     height: 200px;
 }
 
 footer {
     text-align: left;
     margin-left: 20px;
+    margin-top: -50px;
 }
